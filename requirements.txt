@@ -1,0 +1,5 @@
+python-chess
+opencv-python
+numpy
+pyautogui
+mss
