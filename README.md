@@ -16,7 +16,7 @@ It uses **Computer Vision (OpenCV)** to detect the board state and pieces, queri
 1. **Python 3.x** installed on your system.
 2. Clone this repository:
    ```bash
-   git clone https://github.com/USERNAME/chess-ai-autoplayer.git
+   git clone
    cd chess-ai-autoplayer
    ```
 3. Install required Python packages:
