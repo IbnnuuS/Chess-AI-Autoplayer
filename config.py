@@ -9,11 +9,11 @@ ASSETS_DIR = "assets"
 
 # --- ENGINE CONFIGURATION ---
 ENGINE_DEPTH = 10
-MOVE_DELAY = (0.5, 1.5)  # Jeda (delay) acak sebelum AI berpikir / klik jalan (dalam detik)
+MOVE_DELAY = (0.1, 0.3)  # Jeda (delay) acak sebelum AI berpikir / klik jalan (dalam detik)
 
 # --- MOUSE / CLICK CONFIGURATION ---
-MOUSE_DURATION = 0.3      # Kecepatan lari kursor antara 0.1 s/d 0.5 detik
-CLICK_DELAY = 0.1         # Jeda antara klik kotak awal ke kotak tujuan
+MOUSE_DURATION = 0        # 0 = mouse langsung teleport, >0 = ada animasi gerak kursor
+CLICK_DELAY = 0.05        # Jeda antara klik kotak awal ke kotak tujuan
 
 MY_COLOR = 'w'  # 'w' = Putih (kamu di bawah), 'b' = Hitam (kamu di bawah, board flip)
 
